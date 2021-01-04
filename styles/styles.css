@@ -210,7 +210,7 @@ main h1 span:nth-child(3) {
   background-image: linear-gradient(90deg, #ff4d4d, #f9cb28);
 }
 
-main .buttons {
+.buttons {
   margin-top: 6.4rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -220,7 +220,7 @@ main .buttons {
           align-items: center;
 }
 
-main .buttons > button {
+.buttons > button {
   background: var(--white);
   color: var(--black);
   border-radius: 0.4rem;
@@ -234,24 +234,25 @@ main .buttons > button {
   transition: 0.2s ease-in;
 }
 
-main .buttons > button.outlined {
+.buttons > button.outlined {
   background: transparent;
   color: var(--grey);
   border: 0.1rem solid var(--grey);
 }
 
-main .buttons > button:hover {
+.buttons > button:hover {
   background: transparent;
   color: var(--white);
   border: 0.1rem solid var(--white);
 }
 
-main h2 {
+h2 {
   margin: 6.4rem 0;
   font-size: 2rem;
   font-weight: 400;
   letter-spacing: -0.04rem;
   text-align: center;
+  max-width: 90rem;
 }
 
 footer {
