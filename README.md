@@ -1,1 +1,1 @@
-# clone-vercel-homepage
+# Clone vercel homepage
